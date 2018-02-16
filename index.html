@@ -1,0 +1,197 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foodbus - A Food Donation Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+<div class="con1 main-header" id="home">
+    <ul>
+        <a href="index.html#home"><li>Foodbus Home</li></a>
+        <a href="index.html#what"><li>What is Foodbus?</li></a>
+        <a href="index.html#why"><li>Why Foodbus?</li></a>
+        <a href="index.html#media"><li>Foodbus Media</li></a>
+        <a href="index.html#contact"><li>Contact Foodbus</li></a>
+    </ul>
+</div>
+
+
+<div class="con1 main-join-now">
+    <div class="main-join-inner">
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <h1 class="main-h1-text"> A simple contribution from your side will help them stay healthy  </h1>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <a href="app-login.php?type=donor"  class="main-join-button">Donate Food</a>
+        <a href="app-login.php?type=receiver" class="main-join-button">Receive Food</a>
+
+    </div>
+</div>
+
+
+
+<div class="main-what-foodbus" id="what">
+
+    <br/>
+
+    <h1 class="main-what-text">What is Foodbus?</h1>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+
+    <p class="main-info-text"> We are a non-profit organisation who help in establishing a viable route between Food Donors ,
+        Charities and Community groups. Our vision is to eliminate the crisis of Food hunger and Food waste by routing the
+        wasted food from Donors to Charities and Community groups. Our service ensures that homeless people , people in ashrams get daily nutrition effectively
+    By preventing the dumping of waste excess food, we help reduce the food waste generated.</p>
+
+</div>
+
+
+
+<div class="main-why-foodbus" id="why">
+
+    <div class="main-col1">
+        <h1 class="main-why-text">Why Foodbus?</h1>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="main-info">
+
+            <p>India is a developing country. Due to Economic imbalances and fragmentation
+                the society is divided into various economic status. While there are families very rich, there do exist families
+                and people who are homeless and poor. They fight for their daily living. The prices of essentials like food, health,
+                education, housing, utilities and transport have climbed so much in recent years that they are a nightmare scenario for them.
+                Daily nutrition for them is very difficult and they seek the help of others for it.</p>
+
+            <br>
+            <br>
+
+            <p>Although the count of Community groups and Charities have increased lately , the work they do
+                is getting tedious due to the scale of implementation. By providing a support for them to establish direct and real time
+                connection with Donors, We improve their activities by minimising their effort.</p>
+        </div>
+    </div>
+
+    <div class="main-col2">
+        <h1 class="main-why-text">Facts</h1>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="main-info-facts">
+            <p class="main-info-entity">1.3 billion tons of food are wasted every year.</p> <br/>
+            <p>This amounts to US$1 trillion dollars of wasted or lost food.</p> <br/>
+            <p>Just one quarter of all wasted food could feed the 795 million undernourished people
+                around the world who suffer from hunger.</p> <br/>
+            <p>Food waste in rich countries (222 million tons) is approximately equivalent to all of
+                the food produced in Sub-Saharan Africa (230 million tons).</p> <br/>
+            <p>Lack of technology and infrastructure is the main cause of food waste in Africa,
+                as opposed to household food waste in the developed world.</p> <br/>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<div class="main-media-foodbus" id="media">
+
+
+    <a href="#" class="main-gallery-button">Gallery</a>
+    <div class="main-gal-img">
+    </div>
+
+</div>
+
+<div class="main-contact-foodbus" id="contact">
+
+    <br/>
+
+    <div class="main-c-col1">
+
+        <h1>Phone</h1><br/>
+        <p class="main-c-detail">+91-445856956</p>
+
+    </div>
+
+    <div class="main-c-col2">
+
+        <h1>Address</h1><br/>
+        <p class="main-c-detail">#13 , South Jawahar colony , Chengelpet</p>
+
+    </div>
+
+    <div class="main-c-col3">
+
+        <h1>Email</h1> <br/>
+        <p class="main-c-detail">admin@foodbus.com</p>
+
+    </div>
+
+    <br/> <br/> <br/>
+
+</div>
+
+
+
+
+<div class="main-footer">
+    <ul>
+        <a href="index.html#home"><li>Foodbus Home</li></a>
+        <a href="index.html#what"><li>What is Foodbus?</li></a>
+        <a href="index.html#why"><li>Why Foodbus?</li></a>
+        <a href="index.html#media"><li>Foodbus Media</li></a>
+        <a href="index.html#contact"><li>Contact Foodbus</li></a>
+    </ul>
+</div>
+
+
+
+</body>
+</html>
